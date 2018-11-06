@@ -41,6 +41,7 @@ class ViewController: UIViewController {
     
     @IBAction func resetGame() {
         round = 1
+        finger = "Index"
     }
 
     override func didReceiveMemoryWarning() {
